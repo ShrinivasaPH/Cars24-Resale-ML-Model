@@ -41,7 +41,7 @@ if st.button("Get Price"):
     pred = model.predict([input_data])[0]
     st.header(":rainbow[Your car's price-prediction below:]")
     st.header(round(pred,2))
-    st.write("In Lakhs")
+    st.write("In Lakhs.")
 
 st.header("Disclaimer:")
 st.caption("This web app is created as part of an academic project and provides resale value predictions based on a machine learning model. The predictions are intended for informational purposes only.")
