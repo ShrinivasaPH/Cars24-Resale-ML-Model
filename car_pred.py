@@ -43,7 +43,7 @@ if st.button("Get Price"):
     st.header(round(pred,2))
     st.write("In Lakhs.")
 
-st.markdown(''':car:''')
+st.markdown(''':car::car:''')
 
 
 st.markdown("---")
