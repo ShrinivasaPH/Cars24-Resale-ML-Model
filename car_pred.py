@@ -22,10 +22,10 @@ engine = col1.slider("Set the engine power (cc):", 700, 5000, step=100)
 transmission_type = col2.selectbox("Select the transmission type:", ["Manual", "Automatic"])
 seats = col2.selectbox("Enter the number of seats:", [4, 5, 7, 9, 11])
 model_year = col1.selectbox("Enter the make-Year:", range(1992, 2022))
-mileage = col1.slider("Enter the mileage (km/l):", 5, 35, step=1)
+mileage = col1.slider("Enter the mileage (km/l):", 4, 35, step=1)
 seller_type = col2.selectbox("Enter the seller Type:", ["Dealer", "Individual", "Trustmark_Dealer"])
-km_driven = col2.slider("Enter the total kilometers driven:", 0, 300000, step=1000)
-max_power = col1.slider("Enter the max power (bhp):", 50, 500, step=10)
+km_driven = col2.slider("Enter the total kilometers driven:", 100, 3800000, step=1000)
+max_power = col1.slider("Enter the max power (bhp):", 5, 500, step=10)
 
 # Encoding categorical features
 encode_dict = {
