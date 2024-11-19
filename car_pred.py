@@ -43,6 +43,6 @@ if st.button("Get Price"):
     st.header(round(pred,2))
     st.write("In Lakhs")
 
-st.caption("_Disclaimer_")
+st.text("_Disclaimer_")
 st.caption("This web app was developed as part of an academic project and is for informational purposes only. The predicted resale values are based on a machine learning model and may not accurately reflect real-world market conditions.")
 st.caption("The developer is not liable for any decisions made based on the app’s output. Users should consult professionals for reliable car resale valuations.")
