@@ -44,3 +44,7 @@ if st.button("Get Price"):
     st.write("In Lakhs")
 
 st.text("Disclaimer: This web app was developed as part of an academic project and is for informational purposes only. The predicted resale values are based on a machine learning model and may not accurately reflect real-world market conditions. The developer is not liable for any decisions made based on the app’s output. Users should consult professionals for reliable car resale valuations.")
+
+st.html(
+    <p>"<strong>Disclaimer:</strong> This web app was developed as part of an academic project and is for informational purposes only. The predicted resale values are based on a machine learning model and may not accurately reflect real-world market conditions. The developer is not liable for any decisions made based on the app’s output. Users should consult professionals for reliable car resale valuations."</p>
+)
