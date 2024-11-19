@@ -13,7 +13,7 @@ st.title("Cars Resale Price Prediction.")
 st.write("This site helps you estimate your car's resale value using a Machine Learning Model.")
 st.dataframe(cars_df.head())
 
-st.header("Just enter the details:")
+st.header("Just enter the details about your car:")
 
 
 col1, col2 = st.columns(2)
