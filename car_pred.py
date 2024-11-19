@@ -44,7 +44,7 @@ if st.button("Get Price"):
 
     input_data = [model_year,encoded_seller_type,km_driven,encoded_fuel_type, encoded_transmission_type,encoded_seller_type,engine,max_power,seats]
 
-    pred = model.predict([input_data])[0]
+    pred = model.predict([input_data])
     st.header(":rainbow[Your car's price-prediction below:]")
     st.header(round(pred,2))
     st.write("In Lakhs.")
