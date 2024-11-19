@@ -44,7 +44,6 @@ if st.button("Get Price"):
     st.write("In Lakhs.")
 
 st.markdown("---")
-
 st.header("Disclaimer:")
 st.caption("This web app is created as part of an academic project and provides resale value predictions based on a Machine Learning model (Regression based). The predictions are intended for informational purposes only.")
 st.caption("The developer is not liable for any decisions made based on the app’s output. For precise car resale valuations, users should consult professional services.")
