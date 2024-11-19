@@ -43,9 +43,6 @@ if st.button("Get Price"):
     st.header(round(pred,2))
     st.write("In Lakhs.")
 
-st.markdown(''':car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car:''')
-
-
 st.markdown("---")
 st.header("Disclaimer:")
 st.caption("This web app is created as part of an academic project and provides resale value predictions based on a Machine Learning model (Regression based). The predictions are intended for informational purposes only.")
