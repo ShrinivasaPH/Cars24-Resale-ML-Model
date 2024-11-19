@@ -23,7 +23,7 @@ fuel_type = col1.selectbox("Select the fuel type:", ["Diesel", "Petrol", "CNG", 
 engine = col1.slider("Set the engine power:", 700,5000, step=100)
 transmission_type = col2.selectbox("Select the transmission type:", ["Manual", "Automatic"])
 seats = col2.selectbox("Enter the number of seats:", [4,5,7,9,11])
-model_year = col1.selectbox("Enter the make-Year:", 1980,2024, step=1)
+model_year = col1.selectbox("Enter the make-Year:", 1992,2021, step=1)
 mileage = col1.slider("Enter the mileage:")
 seller_type = col2.number_input("Enter the seller Type:", [1,2,3])
 km_driven = col2.slider("Enter the mileage:")
