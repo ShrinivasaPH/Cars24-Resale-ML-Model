@@ -25,8 +25,8 @@ engine = col1.slider("Set the engine power:", 700,5000, step=100)
 transmission_type = col2.selectbox("Select the transmission type:", ["Manual", "Automatic"])
 seats = col2.selectbox("Enter the number of seats:", [4,5,6,7,8,9,10])
 km_driven = col1.slider("Select the KM driven:", 100,3800000,step=1)
-year = col2.selectbox("Select the year:",list(range(2000, 2021)))
-mileage =  col1.slider("Select the mileage:", 20,120, step=5)
+year = col2.selectbox("Select the year:",list(range(2003, 2021)))
+mileage =  col1.slider("Select the mileage:", 25,120, step=5)
 
 #Encoding categorical features
 encode_dict = {
