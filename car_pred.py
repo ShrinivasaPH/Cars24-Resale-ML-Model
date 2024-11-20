@@ -21,7 +21,7 @@ col1, col2, col3 = st.columns(3)
 
 #dropdowns
 fuel_type = col1.selectbox("Select the fuel type:", ["Diesel", "Petrol", "CNG", "LPG", "Electric"])
-engine = col2.slider("Set the engine power:", 700,5000, step=100)
+engine = col2.slider("Set the engine power/Displacement (CC):", 700,5000, step=100)
 transmission_type = col3.selectbox("Select the transmission type:", ["Manual", "Automatic"])
 seats = col1.selectbox("Enter the number of seats:", [4,5,6,7,8,9,10])
 km_driven = col2.number_input("Select/type the KM driven:", 100,3800000,step=1)
