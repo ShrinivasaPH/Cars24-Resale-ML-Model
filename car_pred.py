@@ -43,8 +43,6 @@ if st.button("Get Price"):
     st.header(round(pred,2))
     st.write("In Lakhs.")
 
-st.markdown(''':car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car:''')
-
 
 st.markdown("---")
 st.header("Disclaimer:")
