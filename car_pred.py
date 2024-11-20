@@ -46,7 +46,7 @@ if st.button("Get Price"):
     st.header(round(pred,2))
     st.write("In Lakhs.")
 
-    print("Hello")
+    st.write("Hello")
 
 #Disclaimer
 st.markdown("---")
