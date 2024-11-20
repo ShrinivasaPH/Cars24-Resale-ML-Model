@@ -48,8 +48,9 @@ if st.button("Get Price"):
     # Predict price
     pred = model.predict([input_data])
     st.header(":rainbow[Your car's price-prediction below:]")
-    st.header(f"{round(pred[0], 2)} Lakhs")
 
+    st.header(round(pred,2))
+    st.write("In Lakhs.")
 
 st.markdown("---")
 st.header("Disclaimer:")
