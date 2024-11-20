@@ -11,7 +11,7 @@ cars_df = pd.read_csv("./cars24-car-price.csv")
 
 st.title("Cars Resale Price Prediction.")
 st.write("This site helps you estimate your car's resale value using a Machine Learning Model.")
-st.dataframe(cars_df.head())
+st.dataframe(cars_df)
 
 
 st.header("Just enter the details about your car:")
