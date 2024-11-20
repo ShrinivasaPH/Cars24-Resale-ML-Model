@@ -37,12 +37,16 @@ if st.button("Get Price"):
     encoded_fuel_type = encode_dict['fuel_type'][fuel_type]
     encoded_transmission_type = encode_dict['transmission_type'][transmission_type]
 
+    #           year, individual, km_driven, fuel_type, transmmission_type, mileaege, engine, max_power, seats
+
     input_data = [2012.0,2,120000,encoded_fuel_type, encoded_transmission_type,19.7,engine,46.3,seats]
 
     pred = model.predict([input_data])[0]
     st.header(":rainbow[Your car's price-prediction below:]")
     st.header(round(pred,2))
     st.write("In Lakhs.")
+
+    print("Hello")
 
 #Disclaimer
 st.markdown("---")
