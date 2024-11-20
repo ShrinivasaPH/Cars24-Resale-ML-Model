@@ -43,10 +43,13 @@ if st.button("Get Price"):
     st.header(round(pred,2))
     st.write("In Lakhs.")
 
-st.markdown(''':car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car::car:''')
-
 
 st.markdown("---")
-st.header("Disclaimer:")
-st.caption("This web app is created as part of an academic project and provides resale value predictions based on a Machine Learning model (Regression based). The predictions are intended for informational purposes only.")
-st.caption("The developer is not liable for any decisions made based on the app’s output. For precise car resale valuations, users should consult professional services.")
+
+st.markdown("""
+<div style="background-color: #eef6fc; border-left: 6px solid #2b83ba; padding: 15px; border-radius: 5px; font-family: Arial, sans-serif;">
+    <strong>Disclaimer</strong><br><br>
+    This web app is created as part of an academic project and provides resale value predictions based on a machine learning model. The predictions are intended for informational purposes only.<br><br>
+    The developer is not liable for any decisions made based on the app’s output. For precise car resale valuations, users should consult professional services.
+</div>
+""", unsafe_allow_html=True)
