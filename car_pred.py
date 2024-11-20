@@ -17,15 +17,15 @@ st.dataframe(cars_df.head())
 st.header("Just enter the details about your car:")
 
 
-col1, col2 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
 #dropdowns
 fuel_type = col1.selectbox("Select the fuel type:", ["Diesel", "Petrol", "CNG", "LPG", "Electric"])
-engine = col1.slider("Set the engine power:", 700,5000, step=100)
-transmission_type = col2.selectbox("Select the transmission type:", ["Manual", "Automatic"])
-seats = col2.selectbox("Enter the number of seats:", [4,5,6,7,8,9,10])
-km_driven = col1.slider("Select the KM driven:", 100,3800000,step=1)
-year = col2.selectbox("Select the year:",list(range(2010, 2021)))
+engine = col2.slider("Set the engine power:", 700,5000, step=100)
+transmission_type = col3.selectbox("Select the transmission type:", ["Manual", "Automatic"])
+seats = col1.selectbox("Enter the number of seats:", [4,5,6,7,8,9,10])
+km_driven = col2.slider("Select the KM driven:", 100,3800000,step=1)
+year = col3.selectbox("Select the year:",list(range(2010, 2021)))
 mileage =  col1.slider("Select the mileage:", 25,120, step=5)
 
 #Encoding categorical features
